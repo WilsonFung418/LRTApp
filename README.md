@@ -11,7 +11,7 @@ Android Home Screen Widget for MTR Light Rail (輕鐵) real-time arrivals.
 
 ## Station Support
 
-Default station: 大興南 (Tai Hing (South)) - Station ID: 220
+Default station: Auto Detect by GPS
 
 Supports all MTR Light Rail stations via official HKGov API.
 
