@@ -26,7 +26,7 @@ Supports all MTR Light Rail stations via official HKGov API.
 
 Light Rail schedule API:
 ```
-https://rt.data.gov.hk/v1/transport/mtr/lrt/getSchedule?station_id=220
+https://rt.data.gov.hk/v1/transport/mtr/lrt/getSchedule?station_id=
 ```
 
 ## Build
