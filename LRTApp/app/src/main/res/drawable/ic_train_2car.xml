@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="24dp"
+    android:viewportWidth="80"
+    android:viewportHeight="24">
+    <!-- Car 1 body -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M2,6 L36,6 Q38,6 38,8 L38,18 Q38,20 36,20 L2,20 Q0,20 0,18 L0,8 Q0,6 2,6 Z" />
+    <!-- Car 1 windows -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M5,9 L13,9 L13,17 L5,17 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M17,9 L25,9 L25,17 L17,17 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M29,9 L35,9 L35,17 L29,17 Z" />
+    <!-- Coupling -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M37,12 L40,12 L40,13 L37,13 Z" />
+    <!-- Car 2 body -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M40,6 L78,6 Q80,6 80,8 L80,18 Q80,20 78,20 L40,20 Q40,20 40,18 L40,8 Q40,6 40,6 Z" />
+    <!-- Car 2 windows -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M43,9 L51,9 L51,17 L43,17 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M55,9 L63,9 L63,17 L55,17 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M67,9 L75,9 L75,17 L67,17 Z" />
+    <!-- Wheels -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M8,20 A2.5,2.5 0,1,1 8,19.99 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M22,20 A2.5,2.5 0,1,1 22,19.99 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M33,20 A2.5,2.5 0,1,1 33,19.99 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M46,20 A2.5,2.5 0,1,1 46,19.99 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M60,20 A2.5,2.5 0,1,1 60,19.99 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M71,20 A2.5,2.5 0,1,1 71,19.99 Z" />
+</vector>

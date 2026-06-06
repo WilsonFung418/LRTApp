@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#40000000"
+    android:padding="8dp">
+
+    <!-- Left: LRT Arrivals -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:layout_marginEnd="6dp">
+
+        <!-- Station header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:paddingStart="4dp">
+
+            <TextView
+                android:id="@+id/widget_station"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widget_updated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="9sp"
+                android:textColor="#AAFFFFFF"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <!-- Row 0 -->
+        <LinearLayout
+            android:id="@+id/platform_card_0"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/widget_row_bg"
+            android:paddingHorizontal="10dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/widget_r0"
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/widget_route_badge"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/widget_d0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/widget_t0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:minWidth="44dp"
+                android:gravity="end"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:id="@+id/widget_c0"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="14sp"
+                android:textColor="#AAFFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:id="@+id/platform_card_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/widget_row_bg"
+            android:paddingHorizontal="10dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView android:id="@+id/widget_r1" android:layout_width="48dp" android:layout_height="36dp"
+                android:gravity="center" android:text="" android:textSize="13sp"
+                android:textColor="#FFFFFF" android:textStyle="bold"
+                android:background="@drawable/widget_route_badge" android:layout_marginEnd="8dp" />
+            <TextView android:id="@+id/widget_d1" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="" android:textSize="15sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:maxLines="1" android:ellipsize="end" />
+            <TextView android:id="@+id/widget_t1" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="" android:textSize="17sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:minWidth="44dp"
+                android:gravity="end" android:layout_marginEnd="4dp" />
+            <TextView android:id="@+id/widget_c1" android:layout_width="20dp"
+                android:layout_height="wrap_content" android:gravity="center" android:text=""
+                android:textSize="14sp" android:textColor="#AAFFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:id="@+id/platform_card_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/widget_row_bg"
+            android:paddingHorizontal="10dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView android:id="@+id/widget_r2" android:layout_width="48dp" android:layout_height="36dp"
+                android:gravity="center" android:text="" android:textSize="13sp"
+                android:textColor="#FFFFFF" android:textStyle="bold"
+                android:background="@drawable/widget_route_badge" android:layout_marginEnd="8dp" />
+            <TextView android:id="@+id/widget_d2" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="" android:textSize="15sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:maxLines="1" android:ellipsize="end" />
+            <TextView android:id="@+id/widget_t2" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="" android:textSize="17sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:minWidth="44dp"
+                android:gravity="end" android:layout_marginEnd="4dp" />
+            <TextView android:id="@+id/widget_c2" android:layout_width="20dp"
+                android:layout_height="wrap_content" android:gravity="center" android:text=""
+                android:textSize="14sp" android:textColor="#AAFFFFFF" />
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:id="@+id/platform_card_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/widget_row_bg"
+            android:paddingHorizontal="10dp">
+
+            <TextView android:id="@+id/widget_r3" android:layout_width="48dp" android:layout_height="36dp"
+                android:gravity="center" android:text="" android:textSize="13sp"
+                android:textColor="#FFFFFF" android:textStyle="bold"
+                android:background="@drawable/widget_route_badge" android:layout_marginEnd="8dp" />
+            <TextView android:id="@+id/widget_d3" android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="" android:textSize="15sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:maxLines="1" android:ellipsize="end" />
+            <TextView android:id="@+id/widget_t3" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="" android:textSize="17sp"
+                android:textColor="#FFFFFF" android:textStyle="bold" android:minWidth="44dp"
+                android:gravity="end" android:layout_marginEnd="4dp" />
+            <TextView android:id="@+id/widget_c3" android:layout_width="20dp"
+                android:layout_height="wrap_content" android:gravity="center" android:text=""
+                android:textSize="14sp" android:textColor="#AAFFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Right: Weather -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#35000000"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/widget_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:paddingBottom="2dp" />
+
+        <TextView
+            android:id="@+id/widget_lunar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="9sp"
+            android:textColor="#AAFFFFFF"
+            android:gravity="center"
+            android:paddingBottom="6dp" />
+
+        <TextView
+            android:id="@+id/widget_weather_icon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="38sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/widget_weather_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="4dp" />
+
+        <!-- 3-day forecast -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/widget_forecast_0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="#AAFFFFFF"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/widget_forecast_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="#AAFFFFFF"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/widget_forecast_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="#AAFFFFFF"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp">
+
+    <!-- Route badge -->
+    <TextView
+        android:id="@+id/widget_route"
+        android:layout_width="28dp"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:background="@drawable/widget_route_badge" />
+
+    <!-- Destination -->
+    <TextView
+        android:id="@+id/widget_dest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="6dp"
+        android:textColor="#212121"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Time -->
+    <TextView
+        android:id="@+id/widget_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textColor="#1976D2"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <!-- Train icon -->
+    <ImageView
+        android:id="@+id/widget_train_icon"
+        android:layout_width="32dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Train" />
+
+</LinearLayout>

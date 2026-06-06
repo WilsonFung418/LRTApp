@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">輕鐵到站</string>
+    <string name="station_selector_hint">選擇車站</string>
+    <string name="loading">載入中...</string>
+    <string name="no_data">暫無到站資料</string>
+    <string name="last_updated">最後更新: %s</string>
+    <string name="auto_refresh">每5秒自動更新</string>
+    <string name="arriving">即將到達</string>
+    <string name="widget_description">顯示輕鐵實時到站資訊</string>
+    <string name="widget_config_title">選擇車站</string>
+</resources>
